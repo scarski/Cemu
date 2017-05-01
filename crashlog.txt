@@ -1,0 +1,47 @@
+Crashlog for CEMU 1.7.4d
+Date: 01-05-2017 01:17:36
+
+-----------------------------------------
+   Stack trace
+-----------------------------------------
+0x00007ff75cc91570 (+0x00007ff75cc91570)  ntdll.dll        gpu7Texture_forceInvalidateByImagePtr
+0x00007ff75cc91570 (+0x00007ff75cc91570)  ntdll.dll        gpu7Texture_forceInvalidateByImagePtr
+0x00007ffec0f5bb70 (+0x00007ffec0f5bb70)  ntdll.dll        RtlInitializeCriticalSection
+0x00007ffec0f39490 (+0x00007ffec0f39490)  ntdll.dll        RtlImageNtHeaderEx
+0x00007ffec0f3b350 (+0x00007ffec0f3b350)  ntdll.dll        RtlRaiseException
+0x00007ffec0fe8170 (+0x00007ffec0fe8170)  ntdll.dll        RtlpNtMakeTemporaryKey
+0x00007ffec0fe8170 (+0x00007ffec0fe8170)  ntdll.dll        RtlpNtMakeTemporaryKey
+0x00007ffec0f95a80 (+0x00007ffec0f95a80)  ntdll.dll        RtlRaiseStatus
+0x00007ffec0f2c770 (+0x00007ffec0f2c770)  ntdll.dll        RtlFreeHeap
+0x00007ffe9ab8631c (+0x00007ffe9ab8631c)  ntdll.dll        free
+0x00007ffe9ab8631c (+0x00007ffe9ab8631c)  ntdll.dll        free
+0x00007ffe9ab8631c (+0x00007ffe9ab8631c)  ntdll.dll        free
+0x00007ffe9ab8631c (+0x00007ffe9ab8631c)  ntdll.dll        free
+0x00007ffe9ab8631c (+0x00007ffe9ab8631c)  ntdll.dll        free
+0x00007ff75cd25260 (+0x00007ff75cd25260)  ntdll.dll        osLib_registerHLEFunction
+0x00007ffebe618350 (+0x00007ffebe618350)  ntdll.dll        BaseThreadInitThunk
+0x00007ffec0f570b0 (+0x00007ffec0f570b0)  ntdll.dll        RtlUserThreadStart
+Exception 0xc0000374 at 0x7ffec0fe8283(+0xf8283) in module ntdll.dll
+cemu.exe at 0x7ff75cc60000
+
+RAX=00000000fe010001 RBX=00000000c0000374 RCX=0000000000000003 RDX=00007ffec0f38224
+RSP=000000563bfff410 RBP=0000000000000000 RDI=00007ffec103f6b0 RSI=0000000000000001
+R8 =0000000000000000 R9 =0000000000000000 R10=000ffc0002029292 R11=0000000100000000
+R12=fefefefefefefefe R13=000000000000002d R14=000001743a2e0000 R15=0000000000000000
+
+-----------------------------------------
+   Game info
+-----------------------------------------
+Game: Breath of the Wild [US]
+TitleId: 50000101c9400
+RPXHash: 2912eb2f
+
+-----------------------------------------
+   Active PPC instance
+-----------------------------------------
+Not active
+
+-----------------------------------------
+   PPC threads
+-----------------------------------------
+None active

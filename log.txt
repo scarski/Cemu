@@ -1,0 +1,13 @@
+[02:10:15] Using AES-NI for filesystem decryption
+[02:10:15] Loading .rpx -> Map "C:/Users/scars/Desktop/cemu_1.7.4d/The Legend of Zelda Breath of the Wild (1.33)/content/" to /vol/content/
+[02:10:15] TitleId of launched game: 00050000101c9400
+[02:10:15] Mounting local storage (updates): .\mlc01\usr\title\00050000\101C9400\
+[02:10:15] Loading game profile "gameProfiles\00050000101c9400.ini"
+[02:10:17] Using OpenGL version 4.5
+[02:10:17] OpenGL extensions:
+[02:10:17] ARB_clip_control: available
+[02:10:17] ARB_get_program_binary: available
+[02:10:17] ARB_clear_texture: available
+[02:10:17] ARB_copy_image: available
+[02:10:17] GL_VENDOR: NVIDIA Corporation
+[02:11:33] Recompiler initialized. CPU extensions: LZCNT MOVBE AVX 
